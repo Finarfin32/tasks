@@ -6,15 +6,22 @@ import { React } from "react";
 // import Button3 from "./components/Button3";
 // import Button4 from "./components/Button4";
 import "./App.css";
-import TestForm from "./components/ReactHookForm";
+// HOOK FORM
+// import TestForm from "./components/ReactHookForm";
+
+import Form from "./components/FormWithoutHook";
 
 function App() {
   //BUTTON
   // const [count, setCount] = useState(0);
 
+  // FORM
+
   return (
     <div className="App">
       <header className="App-header">
+        <Form />
+
         {/* BUTTON */}
         {/* <div className="Test1">
           <p>Liczba {count}</p>
@@ -24,9 +31,10 @@ function App() {
           <Button4 count={count} setCount={setCount} />
         </div> */}
 
-        <div className="Test2">
+        {/* HOOKFORM */}
+        {/* <div className="Test2">
           <TestForm />
-        </div>
+        </div> */}
       </header>
     </div>
   );
