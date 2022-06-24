@@ -8,8 +8,10 @@ import { React } from "react";
 import "./App.css";
 // HOOK FORM
 // import TestForm from "./components/ReactHookForm";
+//FORM WITHOUT HOOK
+// import Form from "./components/FormWithoutHook";
 
-import Form from "./components/FormWithoutHook";
+import MuiDatePicker from "./components/MuiDatePicker";
 
 function App() {
   //BUTTON
@@ -20,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Form />
+        {/* <Form /> */}
 
         {/* BUTTON */}
         {/* <div className="Test1">
@@ -35,6 +37,7 @@ function App() {
         {/* <div className="Test2">
           <TestForm />
         </div> */}
+        <MuiDatePicker />
       </header>
     </div>
   );
