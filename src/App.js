@@ -11,7 +11,9 @@ import "./App.css";
 //FORM WITHOUT HOOK
 // import Form from "./components/FormWithoutHook";
 
-import MuiDatePicker from "./components/MuiDatePicker";
+// import MuiDatePicker from "./components/MuiDatePicker";      DATEPICKER
+
+import HookFormDatePicker from "./components/HookFormDatePicker";
 
 function App() {
   //BUTTON
@@ -37,7 +39,8 @@ function App() {
         {/* <div className="Test2">
           <TestForm />
         </div> */}
-        <MuiDatePicker />
+        {/* <MuiDatePicker />         DATEPICKER*/}
+        <HookFormDatePicker />
       </header>
     </div>
   );
