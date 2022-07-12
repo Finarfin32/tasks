@@ -10,12 +10,12 @@ function Fetch() {
         setData(result);
       });
   }, []);
-
+  console.log(data);
   return (
     <ul>
       {data?.results?.map((data) => (
         <li key={data?.id}>
-          {data?.results?.gender} {data?.results?.name}
+          {data?.gender} {data?.name?.first} {data?.email}
         </li>
       ))}
     </ul>
