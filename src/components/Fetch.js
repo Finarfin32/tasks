@@ -13,9 +13,9 @@ function Fetch() {
 
   return (
     <ul>
-      {data.results.map((data) => (
-        <li key={data.id}>
-          {data.gender} {data.name}
+      {data?.results?.map((data) => (
+        <li key={data?.id}>
+          {data?.results?.gender} {data?.results?.name}
         </li>
       ))}
     </ul>
