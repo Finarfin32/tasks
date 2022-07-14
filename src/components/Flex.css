@@ -1,0 +1,37 @@
+.pojemnik {
+  display: flex;
+  height: 95vh;
+}
+.test {
+  display: flex;
+  flex-direction: column;
+}
+.test > div {
+  font-size: 4vh;
+  color: white;
+  background: rgb(205, 157, 0);
+  margin: 0.1em;
+  padding: 0.3em 1em;
+  border-radius: 3px;
+  flex: 1;
+}
+.test:nth-child(2) > div:nth-child(1),
+.test:nth-child(12) > div:nth-child(2) {
+  flex: 5;
+}
+.test:nth-child(2) > div:nth-child(2),
+.test:nth-child(12) > div:nth-child(1) {
+  flex: 15;
+}
+.test:nth-child(3) > div:nth-child(1),
+.test:nth-child(11) > div:nth-child(2) {
+  flex: 20;
+}
+.test:nth-child(3) > div:nth-child(2),
+.test:nth-child(11) > div:nth-child(1) {
+  flex: 25;
+}
+.test:nth-child(4) > div:nth-child(1),
+.test:nth-child(10) > div:nth-child(2) {
+  flex: 30;
+}
