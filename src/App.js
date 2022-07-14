@@ -1,12 +1,13 @@
 import { React } from "react";
 import "./App.css";
-import Fetch from "./components/Fetch";
-
+// import Fetch from "./components/Fetch";
+import SimpleAccordion from "./components/AccordionMUI";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Fetch />
+        {/* <Fetch /> */}
+        <SimpleAccordion />
       </header>
     </div>
   );
