@@ -3,8 +3,8 @@ import "./App.css";
 // import Flex from "./components/Flex";
 // import Fetch from "./components/Fetch";
 // import SimpleAccordion from "./components/AccordionMUI";
-// import Check from "./components/Check";
-import Color from "./components/Color";
+import Check from "./components/Check";
+// import Color from "./components/Color";
 function App() {
   return (
     <div className="App">
@@ -12,8 +12,8 @@ function App() {
         {/* <Fetch /> */}
         {/* <SimpleAccordion /> */}
         {/* <Flex /> */}
-        {/* <Check /> */}
-        <Color />
+        <Check />
+        {/* <Color /> */}
       </header>
     </div>
   );

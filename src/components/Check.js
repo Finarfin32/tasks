@@ -7,7 +7,7 @@ function Check() {
   }
 
   return (
-    <form>
+    <form onSubmit={this.handleSubmit}>
       <label>
         Test
         <input type="text" name="name" />
