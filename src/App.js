@@ -3,11 +3,11 @@ import "./App.css";
 // import Flex from "./components/Flex";
 // import Fetch from "./components/Fetch";
 // import SimpleAccordion from "./components/AccordionMUI";
-// import Check from "./components/Check";
+import Check from "./components/Check";
 // import Color from "./components/Color";
 // import TextField from "@mui/material/TextField";
 // import List from "./components/List.js";
-import Box from "./components/Box";
+// import Box from "./components/Box";
 function App() {
   // const [inputText, setInputText] = useState("");
   // let inputHandler = (e) => {
@@ -18,12 +18,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Box />
+        {/* <Box /> */}
 
         {/* <Fetch /> */}
         {/* <SimpleAccordion /> */}
         {/* <Flex /> */}
-        {/* <Check /> */}
+        <Check />
         {/* <Color /> */}
 
         {/* <div className="main">
@@ -37,8 +37,8 @@ function App() {
               label="Search"
             />
           </div>
-          <List input={inputText} /> */}
-        {/* </div> */}
+          <List input={inputText} />
+        </div> */}
       </header>
     </div>
   );
