@@ -5,7 +5,7 @@ function Check() {
   const [value, setValue] = useState("");
 
   function Check2(event) {
-    if (arr.includes({ value })) {
+    if (arr.includes(value)) {
       console.log("✅ istnieje");
       event.preventDefault(event);
     } else {
