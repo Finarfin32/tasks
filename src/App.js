@@ -20,15 +20,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* <DataGrid2 /> */}
-        <Box>
-          <div className="item">Kliknij 1</div>
-        </Box>
-        <Box>
-          <div className="item">Kliknij 2</div>
-        </Box>
-        <Box>
-          <div className="item">Kliknij 3</div>
-        </Box>
+        <Box></Box>
         {/* <Fetch /> */}
         {/* <SimpleAccordion /> */}
         {/* <Flex /> */}
