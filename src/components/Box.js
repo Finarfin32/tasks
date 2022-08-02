@@ -27,6 +27,20 @@ function Box() {
         : toggled.filter((x) => x !== id)
     );
   };
+  // w środku setToggled
+  // I tutaj tak
+  // Warunek polega na sprawdzeniu czy w tablicy toggled znajduje się dane id
+  // I to właśnie można zrobić za pomocą operatora indexOf
+  // On zwraca indeks danej wartości w tablicy
+  // A jeśli zwróci -1 to znaczy że tej wartości w danej tablicy nie znalazł
+  // Czyli jeśli nie znalazł to wykonuje się pierwsza komenda po znaku zapytania
+  // To jest tej skrócony zapis ifa ogólnie
+  // Czyli jeśli nie ma tego elementu w tablicy to zwracana jest tablica rozszerzona (spread) o ten nowy element
+  // Czyli zapis [...toggled, id] to nowa tablica z przekopiowanymi elementami toggled plus z dodanym jeszcze elementem id
+  // A w przeciwnym wypadku, czyli jeśli kliknięty element znajduje się już w tablicy toggled
+  // To ma on zostać usunięty
+  // Czyli przeprowadzamy filtrowanie tej tablicy
+  // I przepisujemy wszystkie jej wartości które nie są równe temu kliknietemu elementowi
   return (
     <div className="container">
       {array.map((arr) => {

@@ -1,13 +1,14 @@
 import { React } from "react";
+// import { useState } from "react";
 import "./App.css";
 // import Flex from "./components/Flex";
-// import Fetch from "./components/Fetch";
+import Todo from "./components/MyTodo";
 // import SimpleAccordion from "./components/AccordionMUI";
 // import Check from "./components/Check";
 // import Color from "./components/Color";
 // import TextField from "@mui/material/TextField";
 // import List from "./components/List.js";
-import Box from "./components/Box";
+// import Box from "./components/Box";
 // import DataGrid2 from "./components/DataGrid";
 function App() {
   // const [inputText, setInputText] = useState("");
@@ -20,8 +21,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* <DataGrid2 /> */}
-        <Box></Box>
-        {/* <Fetch /> */}
+        {/* <Box></Box> */}
+        <Todo />
         {/* <SimpleAccordion /> */}
         {/* <Flex /> */}
         {/* <Check /> */}

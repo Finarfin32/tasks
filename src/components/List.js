@@ -1,12 +1,11 @@
 import { React } from "react";
-import data from "./ListData.json";
 
-function List(props) {
+function List({ inputText, data }) {
   const filteredData = data.filter((el) => {
-    if (props.input === "") {
+    if (inputText === "") {
       return el;
     } else {
-      return el.text.toLowerCase().includes(props.input);
+      return el.text.toLowerCase().includes(inputText);
     }
   });
   return (
