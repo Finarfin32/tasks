@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useEffect } from "react";
 import "./MyTodo.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheckSquare, faX } from "@fortawesome/free-solid-svg-icons";
 function TodoTile() {
   const [data, setData] = useState([]);
   useEffect(() => {
@@ -13,11 +14,11 @@ function TodoTile() {
   }, []);
   console.log(data);
 
-  function Check2() {
-    if (data?.completed === true) {
-      return <FontAwesomeIcon icon="fa-solid fa-check" />;
-    } else return <FontAwesomeIcon icon="fa-solid fa-x" />;
-  }
+  // function Check2() {
+  //   if (data?.completed === true) {
+  //     return <FontAwesomeIcon icon="fa-solid fa-check" />;
+  //   } else return <FontAwesomeIcon icon="fa-solid fa-x" />;
+  // }
 
   return (
     <>
@@ -26,9 +27,18 @@ function TodoTile() {
           <div className="title" style={{ float: "left" }}>
             {`Title: ${data?.title}`}
           </div>
-          <div className="completed" style={{ float: "right" }}>
-            {` Completed: ${data?.completed}`}
-          </div>
+          {data?.completed ? (
+            <div className="completed" style={{ float: "right" }}>
+              {` Completed: ${data?.completed}`}
+              <FontAwesomeIcon icon={faCheckSquare} size="xs" />
+            </div>
+          ) : (
+            <div className="completed" style={{ float: "right" }}>
+              {` Completed: ${data?.completed}`}
+              <FontAwesomeIcon icon={faX} />
+            </div>
+          )}
+
           <div
             className="userid"
             style={{ float: "left" }}
