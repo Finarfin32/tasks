@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./MyTodo.css";
 import TextField from "@mui/material/TextField";
 import TodoTile from "./MyTodoTile";
+import List from "./List";
 
 function Todo() {
   const [inputText, setInputText] = useState("");
@@ -22,7 +23,7 @@ function Todo() {
           label="Search"
         />
       </div>
-      <TodoTile />
+      <TodoTile inputText={inputText} />
     </div>
   );
 }

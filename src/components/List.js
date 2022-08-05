@@ -10,8 +10,8 @@ function List({ inputText, data }) {
   });
   return (
     <ul>
-      {filteredData.map((item) => (
-        <li key={item.id}>{item.text}</li>
+      {filteredData.map((data) => (
+        <li key={data.id}>{data?.title}</li>
       ))}
     </ul>
   );
