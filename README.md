@@ -2,7 +2,7 @@
 
 # Training Field
 
-This is not strictly a specific project. It is a training ground for performing various small tasks that I came up with myself or that Emilia Zamorowska ([Emilia](https://github.com/EmiliaZamorowska)) came up with. The tasks were diverse, ranging from creating simple grid layouts to connecting to APIs (typical TODO project). I also utilized React Hooks, Material UI, and many other tools. Additionally, I learned how to use the tool called Trello and gained experience working in a more organized manner.
+This is not strictly a specific project. It is a training ground for performing various small tasks that I came up with myself or that Emilia Zamorowska (Mid full stack developer[Emilia](https://github.com/EmiliaZamorowska)) came up with. The tasks were diverse, ranging from creating simple grid layouts to connecting to APIs (typical TODO project). I also utilized React Hooks, Material UI, and many other tools. Additionally, I learned how to use the tool called Trello and gained experience working in a more organized manner.
 
 ## Demo
 
@@ -16,7 +16,7 @@ This is not strictly a specific project. It is a training ground for performing 
 
 ## Supervision and verification
 
-- [Emilia](https://github.com/EmiliaZamorowska)
+- [@Emilia](https://github.com/EmiliaZamorowska)
 
 ## Tech Stack
 
