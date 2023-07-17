@@ -1,3 +1,27 @@
+![Logo](https://images90.fotosik.pl/674/6dfc006443bbb53c.png)
+
+# Training Field
+
+This is not strictly a specific project. It is a training ground for performing various small tasks that I came up with myself or that Emilia Zamorowska ([Emilia](https://github.com/EmiliaZamorowska)) came up with. The tasks were diverse, ranging from creating simple grid layouts to connecting to APIs (typical TODO project). I also utilized React Hooks, Material UI, and many other tools. Additionally, I learned how to use the tool called Trello and gained experience working in a more organized manner.
+
+## Demo
+
+#### Trello
+
+![](https://github.com/Finarfin32/finarfin32/blob/Finarfin32-gifs/ZadaniaTrello.gif)
+
+## Authors
+
+- [@finarfin32](https://github.com/Finarfin32)
+
+## Supervision and verification
+
+- [Emilia](https://github.com/EmiliaZamorowska)
+
+## Tech Stack
+
+**Client:** React, Bootstrap, JavaScript, HTML, CSS, Material UI and more.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
